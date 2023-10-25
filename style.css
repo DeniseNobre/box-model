@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	padding: 50px;
+}
+
+#div-um {
+	height: 400px;
+ 	width: 400px;
+ 	outline: 10px #8d3948 double;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	background-color: #5F9EA0;
+ 	padding: 20px;
+ 	margin: 0 auto;
+}
+
+#div-dois {
+	background-image: url(imagens/rosa.jpg);
+ 	background-size: cover;
+ 	box-shadow: inset 7px 5px 20px 2px #8d3948;
+ 	display: flex;
+ 	flex-direction: column;
+ 	justify-content: center;
+ 	align-items: center;
+ 	width: 100%;
+ 	height: 100%;
+}
+
+h1 {
+	color: #5F9EA0;
+	font-size: 50px;
+}
